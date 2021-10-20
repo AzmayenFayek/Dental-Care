@@ -52,7 +52,7 @@ const Navbar = () => {
                                     </Link>
                                 )}
                             </form>
-                            <p className="mb-5">{user.email}</p>
+                            <p className="ps-2 margin-user ">{user.email}</p>
                         </div>
                     </div>
                 </nav>

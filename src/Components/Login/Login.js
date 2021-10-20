@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import useFirebase from "../../Hook/useFirebase";
+import Footer from "../../Shared/Footer/Footer";
 import Navbar from "../../Shared/Navbar/Navbar";
 import './Login.css';
 
@@ -86,6 +87,7 @@ const Login = () => {
 
                 </div>
             </div>
+            <Footer></Footer>
         </>
     );
 };
