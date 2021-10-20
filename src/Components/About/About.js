@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../Shared/Footer/Footer';
 import Navbar from '../../Shared/Navbar/Navbar';
 import "./About.css";
 
@@ -13,28 +14,20 @@ const About = () => {
                         <div className="quote-container">
 
                             <p className="title-name quote-item" fontWeight="400">
-                                Learning has the power to transform our world
-                                from illness to health,
-                                from poverty to prosperity,
-                                from conflict to peace."
+                                To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain.
                             </p>
                         </div>
 
                         <div className="quote-container">
                             <p className="title-name quote-item" fontWeight="400">
-                                No matter who we are or where we are,
-                                learning empowers us to change and grow
-                                and redefine what’s possible.
-                                That’s why access to the best learning is a right, not a privilege."
+                                To provide outstanding dental care with a commitment of honesty, integrity & quality.
                             </p>
                         </div>
                         <div className="quote-container">
                             <p className="title-name quote-item" fontWeight="400">
-                                And that’s why Coursera is here.
-                                We partner with the best institutions
-                                to bring the best learning
-                                to every corner of the world."
+                                Your teeth play an important part in your daily life. It not only helps you to chew and eat your food, but frames your face.
                             </p>
+
 
 
                         </div>
@@ -42,6 +35,7 @@ const About = () => {
 
                 </div>
             </div>
+            <Footer></Footer>
 
             <div >
             </div>
