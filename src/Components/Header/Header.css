@@ -1,0 +1,79 @@
+.banner {
+    background-image: url("http://el.commonsupport.com/newwp/dento/wp-content/uploads/2019/12/v1-1.jpg"),
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 580px;
+    width: 100%;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .title {
+ 
+    color: white;
+    font-weight: bold;
+    font-size: 49px;
+  }
+  .btn-one {
+    position: relative;
+    display: inline-block;
+    background: #32b6a1;
+    color: #fff;
+    line-height: 13px;
+    font-weight: 500;
+    padding: 21px 38px;
+    font-family: "Rubik",sans-serif;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.slide {
+  position: relative;
+  padding: 100px 0 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.text {
+  margin-bottom: 32px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.btn-box {
+  text-align: left;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+.btn-one, .text {
+  letter-spacing: 1px;
+  font-size: 16px;
+}
+  .text-left{
+    text-align: justify;
+    padding-left: 30px;
+  }
+  .content h2 {
+    position: relative;
+    font-size: 50px;
+    line-height: 1.2em;
+    font-weight: 750;
+    text-transform: none;
+    opacity: 0;
+    margin: 0;
+    font-family: "Poppins",sans-serif;
+    opacity: 1;
+}
+.content h2, .text {
+  color: #fff;
+  text-align: left;
+
+}
+.auto-container {
+  position: static;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}

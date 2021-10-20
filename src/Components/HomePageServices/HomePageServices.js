@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import ServiceApi from "../Api/ServiceApi.js"
 import './HomePageServices.css'
-
+// import ServiceApi from './../Api/ServiceApi';
+import ServiceApi from './../../Api/ServiceApi';
 
 const HomePageServices = () => {
     const [serviceData, setServiceData] = useState(ServiceApi);
@@ -15,7 +15,7 @@ const HomePageServices = () => {
                         Our Services
                     </h1>
 
-                    <div className="container-fluid mt-5 mb-5" >
+                    <div className="row mt-5 mb-5" >
                         {serviceData.map((curElem) => {
 
                             const { id, image, title, info } = curElem;

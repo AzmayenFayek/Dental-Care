@@ -1,0 +1,13 @@
+#btn-signUp {
+    background-color: #fffc61;
+    margin-right: 3px;
+    color: #000;
+    border-radius: 30px;
+    padding: 5px 20px;
+}
+#btn-signIn {
+    padding: 5px 20px;
+    background-color: #ff136f;
+    color: #fff;
+    border-radius: 30px;
+}
