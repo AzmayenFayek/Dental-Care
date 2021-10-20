@@ -1,7 +1,7 @@
-# This Website is for Dental Care
+# Dental Care
 
-- sourse code:
-- live link:
+- sourse code: https://github.com/Programming-Hero-Web-Course3/healthcare-related-website-AzmayenFayek
+- live link:https://medicare-50639.web.app/
 
 - It's is build with React js, bootstrap, html, css
 - Hosting: Firebase
